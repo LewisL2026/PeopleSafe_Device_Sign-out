@@ -1,19 +1,3 @@
-"""
-PeopleSafe - MySOS Device Sign-Out  (v4)
-
-Changes from v4:
-- Clear "selected" look on every choice (solid colour, tick, thick black border,
-  unselected options are faded)
-- Devices are a grid of tiles driven by the DEVICES list (add/rename in one line)
-- Sign-Out Date box removed: the time is stamped when Sign-Out is pressed
-- Condition is Good / Broken text tiles (no image files needed any more)
-- Live summary line showing what will be saved
-- Rows that are still signed out are shaded in the table
-- CSV is stored next to the exe / script, or at the path in PEOPLESAFE_CSV (testing)
-
-CSV columns (same as v4):
-Engineer Name, RM-Team, Device-Allocation, Sign-Out Date, Sign-In Date, Shift, Condition
-"""
 import csv
 import os
 import sys

@@ -105,8 +105,3 @@ git log --oneline
 - PeopleSafe Device Sign-Out Station (closed): [HMRMINT-985](https://jira.ssi-schaefer.com/browse/HMRMINT-985). PeopleSafe Device Sign-Out Station. 
   Logs which device was signed out to which engineer.
 - Lone worker alarm for site (open): [HMRMINT-970](https://jira.ssi-schaefer.com/browse/HMRMINT-970). Lone worker alarm for site.
-
-## Change log
-
-- 2026-10-29: Project put under Git.
-- 2025-08-19: Last change by the original author (Sign-In and Condition columns).

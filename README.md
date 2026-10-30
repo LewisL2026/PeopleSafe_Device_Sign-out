@@ -4,7 +4,7 @@ Tkinter desktop app used to log which PeopleSafe device is signed out to which e
 
 - Maintained by: Lewis Li, from 29-Oct-2026
 - Original author: Mislav Prohaska (inherited code)
-- Current version: v4 (`src/PeopleSafe_Checkout_app_v4.py`)
+- Current version: v4 unoficially (`src/PeopleSafe_Checkout_app.py`)
 
 ## Requirements
 
@@ -71,19 +71,9 @@ Install Pillow before building, or the exe will crash with "No module named PIL"
 ## Version control
 
 - Git repository, local or on the approved company server only. Do not push to public GitHub.
-- `.gitignore` excludes `*.csv`, `*.db`, `build/`, `dist/` and `__pycache__/`.
-- Commit messages start with the Jira key, for example `HMRMINT-985 Short description`.
+- `.gitignore` excludes `*.csv`, `*.db`, `dist/` and `__pycache__/`.
 - Tag each release that goes live, for example `git tag v4.0`.
 
-Useful commands:
-
-```
-git status
-git diff
-git add src/PeopleSafe_Checkout_app_v4.py
-git commit -m "HMRMINT-985 Short description"
-git log --oneline
-```
 
 ## Rollout checklist
 

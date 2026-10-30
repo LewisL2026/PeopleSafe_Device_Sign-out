@@ -2,10 +2,10 @@
 
 
 a = Analysis(
-    ['src/PeopleSafe_Checkout_app_v5.py'],
+    ['src/PeopleSafe_Checkout_app.py'],
     pathex=[],
     binaries=[],
-    datas=[],
+    datas=[('src/*.png', '.')],
     hiddenimports=[],
     hookspath=[],
     hooksconfig={},

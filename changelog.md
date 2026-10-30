@@ -2,7 +2,7 @@
 
 - Initial commit 2026-10-29: Project put under Git with new version
 
-PeopleSafe - MySOS Device Sign-Out  (v4)
+PeopleSafe - MySOS Device Sign-Out 
 
 Changes from v3:
 - Clear "selected" look on every choice (solid colour, tick, thick black border,

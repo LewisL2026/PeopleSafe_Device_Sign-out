@@ -1,5 +1,5 @@
 *.csv
 .db
-#build/
+build/
 dist/
 __pycache__/
